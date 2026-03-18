@@ -50,24 +50,21 @@ def is_n_biggest(list_of_numbers: list, n: int) -> bool:
     return: the - n-th biggest number
     """
     while n > 0:
-        clean_list = []
+        no_double_numb = []
         for number in list_of_numbers:
-            if number in clean_list:
+            if number in no_double_numb:
                 continue
             else:
-                clean_list.append(number)
-        if n > len(clean_list):
-            return f'n-th biggest number is: {max(clean_list)}'
-        sorted_list = sorted(clean_list)
+                no_double_numb.append(number)
+        if n > len(no_double_numb):
+            return f'n-th biggest number is: {max(no_double_numb)}'
+        sorted_list = sorted(no_double_numb)
         return sorted_list[-n]
 
 number = input("Please enter a number: ")
 while not number.isdigit():
     number = input("Please enter a number: ")
 n = int(number)
-
-
-
 list_of_numbers = [88, 100, 90, 95, 95, 97, 97, 99, 97, 99]
 print(is_n_biggest(list_of_numbers, n))
 
