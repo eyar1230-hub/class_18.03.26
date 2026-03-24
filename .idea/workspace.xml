@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bfa52e1-59fe-4745-b299-f079b4752676" name="Changes" comment="commit2">
-      <change afterPath="$PROJECT_DIR$/rollet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chek.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rollet.py" beforeDir="false" afterPath="$PROJECT_DIR$/slot_mechine.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +56,11 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.01_exe.executor": "Run",
     "Python.02_exe.executor": "Run",
+    "Python.123.executor": "Run",
+    "Python.chek.executor": "Run",
     "Python.kjhdfgsv.executor": "Run",
     "Python.rollet.executor": "Run",
+    "Python.slot_mechine.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -97,7 +101,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1773868105994</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎-00003" summary="commit2">
+      <option name="closed" value="true" />
+      <created>1774196519785</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1774196519785</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -112,11 +124,6 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rollet.py</url>
-          <line>76</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
